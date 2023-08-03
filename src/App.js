@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Project 1',
     description: 'Description of Project 1',
-    technologies: ['React', 'CSS', 'HTML'],
+    technologies: ['Java', 'CSS', 'HTML'],
     demoUrl: 'https://example.com/project1',
     githubUrl: 'https://github.com/Surjeet-SUJU/Students-Management-Portal',
   },
@@ -55,6 +55,16 @@ function ProjectsSection() {
   );
 }
 
+function Education() {
+	 return (
+		<section>
+			<h3>Holy Family E.M. School</h3>
+			<h3>Uniitech Residential School</h3>
+			<h3>Silicon Institute Of Technology</h3>
+        </section>
+	 );
+}
+
 function App() {
   return (
     <div className="App">
@@ -70,10 +80,11 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
           <p>
-            Add some information about yourself here. You can talk about your background, interests, and experiences.
+            Passionate Engineering Student seeking internship. Committed to utilizing my skills to further the mission of my future workplace. Equipped with a promising skill-set. Bilingual, hardworking, and ready to join my next team.
           </p>
         </section>
         <ProjectsSection />
+        <Education />
       </main>
       <footer>
         <p>© {new Date().getFullYear()} Your Name</p>

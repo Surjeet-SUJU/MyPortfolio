@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-image: url("/resource/bg-image.jpg");
+  background-size: contain;
+  color: white;
 }
 
 .App {
@@ -12,13 +14,13 @@ body {
 }
 
 header {
-  background-color: #333;
   padding: 10px 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  background-color: #333;
 }
 
 nav a {
@@ -44,9 +46,12 @@ h2 {
 }
 
 .project {
-  border: 1px solid #ddd;
+  border: 4px solid white;
+  border-radius: 20px;
   padding: 10px;
   margin-bottom: 10px;
+  background-color: yellow;
+  color: brown;
 }
 
 .project h3 {
@@ -56,15 +61,16 @@ h2 {
 .project-links a {
   display: inline-block;
   margin-right: 10px;
-  color: #333;
+  color: white;
   text-decoration: none;
-  background-color: #eee;
+  background-color: purple;
   padding: 5px 10px;
   border-radius: 4px;
 }
 
 .project-links a:hover {
   background-color: #ddd;
+  color: #333;
 }
 
 footer {

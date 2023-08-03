@@ -57,7 +57,7 @@ function ProjectsSection() {
 
 function Education() {
 	 return (
-		<section>
+		<section id="education">
 			<h3>Holy Family E.M. School</h3>
 			<h3>Uniitech Residential School</h3>
 			<h3>Silicon Institute Of Technology</h3>
@@ -69,8 +69,10 @@ function App() {
   return (
     <div className="App">
       <header>
+        <h1>SURJEET NAYAK</h1>
         <nav>
           <a href="#about">About Me</a>
+          <a href="#education">Education</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
